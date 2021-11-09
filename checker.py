@@ -10,6 +10,6 @@ X = []
 
 for tag in soup.select('td')[1::10]:
     problemid = tag.text
-    X.append((problemid))
+    X.append(problemid)
 
 print(X)
