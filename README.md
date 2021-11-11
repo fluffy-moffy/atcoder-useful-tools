@@ -16,7 +16,12 @@ getter.pyは`コンテスト番号`, `ユーザーの名前`, `問題番号(ex; 
 
 
 ## ダウンロード
-以下のコマンドでカレントディレクトリにリポジトリを保存できます。
+
+beautifulsoup4がというモジュールが必要となるので、以下のコマンドにてインストールを行います。
+
+`pip install beautifulsoup4`
+
+以下のコマンドでカレントディレクトリにリポジトリを保存します。
 
 `git clone https://github.com/moffuu/atcoder-useful-tools.git`
 
