@@ -17,7 +17,7 @@ getter.pyは`コンテスト番号`, `ユーザーの名前`, `問題番号(ex; 
 
 ## ダウンロード
 
-beautifulsoup4がというモジュールが必要となるので、以下のコマンドにてインストールを行います。
+beautifulsoup4というモジュールが必要となるので、以下のコマンドにてインストールを行います。
 
 `pip install beautifulsoup4`
 
