@@ -2,11 +2,6 @@
 
 ## check-and-get v.1.0
 
-authoer: firerce
-
-twitter: [@nekomimimoe3](https://twitter.com/nekomimimoe3)
-
-
 ## 説明
 現在、このリポジトリはchekcer.pyとgetter.pyの二つのツールから構成されています。
 
