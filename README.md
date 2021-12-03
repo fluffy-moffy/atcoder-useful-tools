@@ -14,15 +14,21 @@ getter.pyは`コンテスト番号`, `ユーザーの名前`, `問題番号(ex; 
 
 beautifulsoup4, requestsというモジュールが必要となるので、以下のコマンドにてインストールを行います。
 
-`pip install beautifulsoup4 requests`
+```bash=
+pip install beautifulsoup4 requests
+```
 
 以下のコマンドでカレントディレクトリにリポジトリを保存します。
 
-`git clone https://github.com/moffuu/atcoder-useful-tools.git`
+```bash=
+git clone https://github.com/moffuu/atcoder-useful-tools.git
+```
 
 作成されたディレクトリに移動します。
 
-`cd atcoder-useful-tools.git`
+```bash=
+cd atcoder-useful-tools.git
+```
 
 お好きな場所にcpコマンド等で移動されてください。
 一例ですが、私は`~/work/atcoder`においています。
@@ -33,14 +39,20 @@ beautifulsoup4, requestsというモジュールが必要となるので、以�
 
 1. 取得したい問題が存在するかを確認します。以下のコマンドを実行します。
 
-`python3 checker.py agc055 chokudai //コンテスト名・問題番号は半角で入力してください`
+```bash=
+python3 checker.py agc055 chokudai //コンテスト名・問題番号は半角で入力してください
+```
 
 すると以下のような結果が出力されました。
 
-`['D - ABC Ultimatum', 'C - Weird LIS', 'B - ABC Supremacy', 'A - ABC Identity']`
+```bash=
+['D - ABC Ultimatum', 'C - Weird LIS', 'B - ABC Supremacy', 'A - ABC Identity']`
+```
 
 2. 該当するコードの存在が確認できたので、以下のコマンドにて該当するコードを取得します。(ここでは、a.cppという名前で保存しています)
 
-`python3 getter.py agc055 chokudai a > a.cpp`
+```bash=
+python3 getter.py agc055 chokudai a > a.cpp
+```
 
 これで保存することができました。
