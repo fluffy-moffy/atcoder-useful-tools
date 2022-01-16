@@ -46,7 +46,10 @@ python3 checker.py agc055 chokudai //コンテスト名・問題番号は半角�
 すると以下のような結果が出力されました。
 
 ```bash=
-['D - ABC Ultimatum', 'C - Weird LIS', 'B - ABC Supremacy', 'A - ABC Identity']`
+D - ABC Ultimatum
+C - Weird LIS
+B - ABC Supremacy
+A - ABC Identity
 ```
 
 2. 該当するコードの存在が確認できたので、以下のコマンドにて該当するコードを取得します。(ここでは、a.cppという名前で保存しています)
