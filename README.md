@@ -1,6 +1,6 @@
 # atcoder-useful-tools
 
-### check-and-get v.1.0
+### check-and-get v.2.0
 
 ## 説明
 現在、このリポジトリはchekcer.pyとgetter.pyの二つのツールから構成されています。
