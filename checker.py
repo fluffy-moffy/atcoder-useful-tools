@@ -5,7 +5,7 @@ import requests, html
 import sys
 from bs4 import BeautifulSoup
 
-useage = "usage: python3 checker.py agc055 chokudai"
+usage = "usage: python3 checker.py agc055 chokudai"
 
 logo = '''
  ###                ###      ###                ##
