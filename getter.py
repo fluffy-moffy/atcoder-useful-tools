@@ -4,10 +4,10 @@
 import requests, html, sys
 from bs4 import BeautifulSoup
 
-useage = "useage: python3 getter.py agc055 chokudai a"
+usage = "usage: python3 getter.py agc055 chokudai a"
 
 if len(sys.argv) < 4:
-    print(useage)
+    print(usage)
     sys.exit()
     
 def end():
