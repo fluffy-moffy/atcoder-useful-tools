@@ -5,7 +5,7 @@ import requests, html
 import sys
 from bs4 import BeautifulSoup
 
-useage = "useage: python3 checker.py agc055 chokudai"
+useage = "usage: python3 checker.py agc055 chokudai"
 
 logo = '''
  ###                ###      ###                ##
@@ -18,7 +18,7 @@ logo = '''
 '''
 
 if len(sys.argv) < 3:
-    print(useage)
+    print(usage)
     sys.exit()
 
 def end():
