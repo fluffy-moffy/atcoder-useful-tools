@@ -21,7 +21,7 @@ pip install beautifulsoup4 requests
 以下のコマンドでカレントディレクトリにリポジトリを保存します。
 
 ```bash=
-git clone https://github.com/moffuu/atcoder-useful-tools.git
+git clone https://github.com/fluffy-moffy/atcoder-useful-tools.git
 ```
 
 作成されたディレクトリに移動します。
