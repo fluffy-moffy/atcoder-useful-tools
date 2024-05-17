@@ -30,7 +30,7 @@ git clone https://github.com/fluffy-moffy/atcoder-useful-tools.git
 cd atcoder-useful-tools.git
 ```
 
-お好きな場所にcpコマンド等で移動されてください。
+お好きな場所にcpコマンド等で移動してください。
 一例ですが、私は`~/work/atcoder`においています。
 
 
